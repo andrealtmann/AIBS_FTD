@@ -20,3 +20,14 @@ This script obtains the t-value for a given MNI coordinate. Has to be run once f
 4) labels_to_neighbors.ipynb
 Builds neighborhood graphs that are to be used for adjusting for the spatial autocorrelation in the correlation analysis.
 
+Once the neighborhood graphs have been built. The correlation analysis can be run.
+This is done using the R-script:
+run_spatial_statistics.R
+the option --gene is used to define the FTD gene to run the analysis for (e.g., --gene=MAPT)
+the option --subj is used to define the brain donor. If no donor is provided then the analysis
+is run by merging all subjects' data.
+
+The script meta_analyze.R is used to combine the single results for each brain donor into one meta P-value.
+
+
+
