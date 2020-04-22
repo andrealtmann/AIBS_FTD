@@ -1,6 +1,9 @@
 # AIBS_FTD
 Concordance analysis of atrophy in FTD and regional gene expression
 
+A pre-print describing the analysis and a prior version of the pipeline and the results can be accessed through bioRxiv:
+https://www.biorxiv.org/content/10.1101/2019.12.11.872143v1
+
 To prepare the data, first run the two jupyer notebooks. This requires the gene expression data from the
 Allen Institute, available here:
 http://human.brain-map.org/static/download
